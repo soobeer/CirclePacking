@@ -1,5 +1,5 @@
-#ifndef DORABOT_CODING_CIRCLE_H
-#define DORABOT_CODING_CIRCLE_H
+#ifndef CIRCLE_H
+#define CIRCLE_H
 
 #include <math.h>
 #include <algorithm>
@@ -86,4 +86,4 @@ double Circle :: gradient_y(std::vector<Circle> &circles, double W) {
     return gradient + 2*reg*center_y;
 }
 
-#endif //DORABOT_CODING_CIRCLE_H
+#endif //CIRCLE_H

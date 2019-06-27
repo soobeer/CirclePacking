@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
-filename = '/Users/soober/CLionProjects/Dorabot_coding/cmake-build-debug/circles.txt'
+filename = 'YOUR_PATH/circles.txt'
 
 data = []
 with open(filename, 'r') as coords_data:
